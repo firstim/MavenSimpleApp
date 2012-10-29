@@ -8,6 +8,7 @@
 
 #import "MSAViewController.h"
 #import <SimpleLib/SimpleLib.h>
+#import <RestKit/RestKit.h>
 
 @interface MSAViewController ()
 
@@ -21,6 +22,8 @@
   SimpleLib *mylib = [[SimpleLib alloc] init];
   NSString *statement = [mylib sayHelloBy:@"Chen, Yu"];
   NSLog(@"%@", statement);
+  
+  RKObjectManager *om = [RKObjectManager sharedManager];
 }
 
 - (void)didReceiveMemoryWarning
