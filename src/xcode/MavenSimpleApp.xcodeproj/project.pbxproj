@@ -114,14 +114,6 @@
 		22FCC066163EE6530050A938 = {
 			isa = PBXGroup;
 			children = (
-				220E8447163F0E7100E22998 /* QuartzCore.framework */,
-				220E8445163F0E6600E22998 /* libxml2.dylib */,
-				220E8443163F0E4C00E22998 /* SystemConfiguration.framework */,
-				220E843F163F0E4100E22998 /* MobileCoreServices.framework */,
-				220E8440163F0E4100E22998 /* Security.framework */,
-				220E843D163F0E2600E22998 /* CoreData.framework */,
-				220E843B163F0E1B00E22998 /* CFNetwork.framework */,
-				220E8438163F0D7D00E22998 /* libRestKit.a */,
 				22FCC07B163EE6530050A938 /* MavenSimpleApp */,
 				22FCC09F163EE6530050A938 /* MavenSimpleAppTests */,
 				22FCC074163EE6530050A938 /* Frameworks */,
@@ -141,7 +133,15 @@
 		22FCC074163EE6530050A938 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				220E8438163F0D7D00E22998 /* libRestKit.a */,
 				22FCC0B5163EEB4F0050A938 /* libSimpleLib.a */,
+				220E8445163F0E6600E22998 /* libxml2.dylib */,
+				220E8447163F0E7100E22998 /* QuartzCore.framework */,
+				220E8443163F0E4C00E22998 /* SystemConfiguration.framework */,
+				220E843F163F0E4100E22998 /* MobileCoreServices.framework */,
+				220E8440163F0E4100E22998 /* Security.framework */,
+				220E843D163F0E2600E22998 /* CoreData.framework */,
+				220E843B163F0E1B00E22998 /* CFNetwork.framework */,
 				22FCC075163EE6530050A938 /* UIKit.framework */,
 				22FCC077163EE6530050A938 /* Foundation.framework */,
 				22FCC079163EE6530050A938 /* CoreGraphics.framework */,
