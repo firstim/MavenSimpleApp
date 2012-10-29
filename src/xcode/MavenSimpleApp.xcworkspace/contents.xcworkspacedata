@@ -4,4 +4,7 @@
    <FileRef
       location = "container:MavenSimpleApp.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../../../MavenSimpleLib/src/xcode/SimpleLib.xcodeproj">
+   </FileRef>
 </Workspace>
