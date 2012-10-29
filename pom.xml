@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.lixar.mavenxcode</groupId>
-  <artifactId>SimpleApp</artifactId>
+  <artifactId>MavenSimpleApp</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>xcode-app</packaging>
 
