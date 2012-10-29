@@ -7,6 +7,7 @@
 //
 
 #import "MSAViewController.h"
+#import <SimpleLib/SimpleLib.h>
 
 @interface MSAViewController ()
 
@@ -16,14 +17,16 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+  [super viewDidLoad];
+  SimpleLib *mylib = [[SimpleLib alloc] init];
+  NSString *statement = [mylib sayHelloBy:@"Chen, Yu"];
+  NSLog(@"%@", statement);
 }
 
 - (void)didReceiveMemoryWarning
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  [super didReceiveMemoryWarning];
+  // Dispose of any resources that can be recreated.
 }
 
 @end
