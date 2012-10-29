@@ -7,4 +7,7 @@
    <FileRef
       location = "group:../../../MavenSimpleLib/src/xcode/SimpleLib.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../../../MavenRestKit/src/xcode/RestKit.xcodeproj">
+   </FileRef>
 </Workspace>
