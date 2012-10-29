@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220E8439163F0D7D00E22998 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 220E8438163F0D7D00E22998 /* libRestKit.a */; };
+		220E843C163F0E1B00E22998 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220E843B163F0E1B00E22998 /* CFNetwork.framework */; };
+		220E843E163F0E2600E22998 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220E843D163F0E2600E22998 /* CoreData.framework */; };
+		220E8441163F0E4100E22998 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220E843F163F0E4100E22998 /* MobileCoreServices.framework */; };
+		220E8442163F0E4100E22998 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220E8440163F0E4100E22998 /* Security.framework */; };
+		220E8444163F0E4C00E22998 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220E8443163F0E4C00E22998 /* SystemConfiguration.framework */; };
+		220E8446163F0E6600E22998 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 220E8445163F0E6600E22998 /* libxml2.dylib */; };
+		220E8448163F0E7100E22998 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220E8447163F0E7100E22998 /* QuartzCore.framework */; };
 		22FCC076163EE6530050A938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FCC075163EE6530050A938 /* UIKit.framework */; };
 		22FCC078163EE6530050A938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FCC077163EE6530050A938 /* Foundation.framework */; };
 		22FCC07A163EE6530050A938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FCC079163EE6530050A938 /* CoreGraphics.framework */; };
@@ -37,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220E8438163F0D7D00E22998 /* libRestKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRestKit.a; path = "../../target/libs/Debug-iphoneos/org.restkit.maven/RestKit/libRestKit.a"; sourceTree = "<group>"; };
+		220E843B163F0E1B00E22998 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		220E843D163F0E2600E22998 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		220E843F163F0E4100E22998 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		220E8440163F0E4100E22998 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		220E8443163F0E4C00E22998 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		220E8445163F0E6600E22998 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		220E8447163F0E7100E22998 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		22FCC071163EE6530050A938 /* MavenSimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MavenSimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FCC075163EE6530050A938 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22FCC077163EE6530050A938 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +83,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220E8448163F0E7100E22998 /* QuartzCore.framework in Frameworks */,
+				220E8446163F0E6600E22998 /* libxml2.dylib in Frameworks */,
+				220E8444163F0E4C00E22998 /* SystemConfiguration.framework in Frameworks */,
+				220E8441163F0E4100E22998 /* MobileCoreServices.framework in Frameworks */,
+				220E8442163F0E4100E22998 /* Security.framework in Frameworks */,
+				220E843E163F0E2600E22998 /* CoreData.framework in Frameworks */,
+				220E843C163F0E1B00E22998 /* CFNetwork.framework in Frameworks */,
+				220E8439163F0D7D00E22998 /* libRestKit.a in Frameworks */,
 				22FCC0B6163EEB4F0050A938 /* libSimpleLib.a in Frameworks */,
 				22FCC076163EE6530050A938 /* UIKit.framework in Frameworks */,
 				22FCC078163EE6530050A938 /* Foundation.framework in Frameworks */,
@@ -90,6 +114,14 @@
 		22FCC066163EE6530050A938 = {
 			isa = PBXGroup;
 			children = (
+				220E8447163F0E7100E22998 /* QuartzCore.framework */,
+				220E8445163F0E6600E22998 /* libxml2.dylib */,
+				220E8443163F0E4C00E22998 /* SystemConfiguration.framework */,
+				220E843F163F0E4100E22998 /* MobileCoreServices.framework */,
+				220E8440163F0E4100E22998 /* Security.framework */,
+				220E843D163F0E2600E22998 /* CoreData.framework */,
+				220E843B163F0E1B00E22998 /* CFNetwork.framework */,
+				220E8438163F0D7D00E22998 /* libRestKit.a */,
 				22FCC07B163EE6530050A938 /* MavenSimpleApp */,
 				22FCC09F163EE6530050A938 /* MavenSimpleAppTests */,
 				22FCC074163EE6530050A938 /* Frameworks */,
@@ -390,8 +422,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../target/libs/Debug-iphoneos/com.lixar.mavenxcode/SimpleLib\"",
+					"\"$(SRCROOT)/../../target/libs/Debug-iphoneos/org.restkit.maven/RestKit\"",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,8 +442,12 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../target/libs/Debug-iphoneos/com.lixar.mavenxcode/SimpleLib\"",
+					"\"$(SRCROOT)/../../target/libs/Debug-iphoneos/org.restkit.maven/RestKit\"",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
