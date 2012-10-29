@@ -37,7 +37,7 @@
 		<dependency>
 			<groupId>com.lixar.mavenxcode</groupId>
 			<artifactId>SimpleLib</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.0</version>
 			<type>xcode-lib</type>
 		</dependency>
 	</dependencies>
