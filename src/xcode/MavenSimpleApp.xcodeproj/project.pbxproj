@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FCC076163EE6530050A938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FCC075163EE6530050A938 /* UIKit.framework */; };
+		22FCC078163EE6530050A938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FCC077163EE6530050A938 /* Foundation.framework */; };
+		22FCC07A163EE6530050A938 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FCC079163EE6530050A938 /* CoreGraphics.framework */; };
+		22FCC080163EE6530050A938 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22FCC07E163EE6530050A938 /* InfoPlist.strings */; };
+		22FCC082163EE6530050A938 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC081163EE6530050A938 /* main.m */; };
+		22FCC086163EE6530050A938 /* MSAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC085163EE6530050A938 /* MSAAppDelegate.m */; };
+		22FCC088163EE6530050A938 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FCC087163EE6530050A938 /* Default.png */; };
+		22FCC08A163EE6530050A938 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FCC089163EE6530050A938 /* Default@2x.png */; };
+		22FCC08C163EE6530050A938 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22FCC08B163EE6530050A938 /* Default-568h@2x.png */; };
+		22FCC08F163EE6530050A938 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FCC08D163EE6530050A938 /* MainStoryboard.storyboard */; };
+		22FCC092163EE6530050A938 /* MSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC091163EE6530050A938 /* MSAViewController.m */; };
+		22FCC09A163EE6530050A938 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FCC099163EE6530050A938 /* SenTestingKit.framework */; };
+		22FCC09B163EE6530050A938 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FCC075163EE6530050A938 /* UIKit.framework */; };
+		22FCC09C163EE6530050A938 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FCC077163EE6530050A938 /* Foundation.framework */; };
+		22FCC0A4163EE6530050A938 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22FCC0A2163EE6530050A938 /* InfoPlist.strings */; };
+		22FCC0A7163EE6530050A938 /* MavenSimpleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FCC0A6163EE6530050A938 /* MavenSimpleAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22FCC09D163EE6530050A938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FCC068163EE6530050A938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FCC070163EE6530050A938;
+			remoteInfo = MavenSimpleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22FCC071163EE6530050A938 /* MavenSimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MavenSimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FCC075163EE6530050A938 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22FCC077163EE6530050A938 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22FCC079163EE6530050A938 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22FCC07D163EE6530050A938 /* MavenSimpleApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MavenSimpleApp-Info.plist"; sourceTree = "<group>"; };
+		22FCC07F163EE6530050A938 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22FCC081163EE6530050A938 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22FCC083163EE6530050A938 /* MavenSimpleApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MavenSimpleApp-Prefix.pch"; sourceTree = "<group>"; };
+		22FCC084163EE6530050A938 /* MSAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAAppDelegate.h; sourceTree = "<group>"; };
+		22FCC085163EE6530050A938 /* MSAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAAppDelegate.m; sourceTree = "<group>"; };
+		22FCC087163EE6530050A938 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22FCC089163EE6530050A938 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22FCC08B163EE6530050A938 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22FCC08E163EE6530050A938 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22FCC090163EE6530050A938 /* MSAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSAViewController.h; sourceTree = "<group>"; };
+		22FCC091163EE6530050A938 /* MSAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSAViewController.m; sourceTree = "<group>"; };
+		22FCC098163EE6530050A938 /* MavenSimpleAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MavenSimpleAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FCC099163EE6530050A938 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		22FCC0A1163EE6530050A938 /* MavenSimpleAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MavenSimpleAppTests-Info.plist"; sourceTree = "<group>"; };
+		22FCC0A3163EE6530050A938 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22FCC0A5163EE6530050A938 /* MavenSimpleAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MavenSimpleAppTests.h; sourceTree = "<group>"; };
+		22FCC0A6163EE6530050A938 /* MavenSimpleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MavenSimpleAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FCC06E163EE6530050A938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FCC076163EE6530050A938 /* UIKit.framework in Frameworks */,
+				22FCC078163EE6530050A938 /* Foundation.framework in Frameworks */,
+				22FCC07A163EE6530050A938 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FCC094163EE6530050A938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FCC09A163EE6530050A938 /* SenTestingKit.framework in Frameworks */,
+				22FCC09B163EE6530050A938 /* UIKit.framework in Frameworks */,
+				22FCC09C163EE6530050A938 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FCC066163EE6530050A938 = {
+			isa = PBXGroup;
+			children = (
+				22FCC07B163EE6530050A938 /* MavenSimpleApp */,
+				22FCC09F163EE6530050A938 /* MavenSimpleAppTests */,
+				22FCC074163EE6530050A938 /* Frameworks */,
+				22FCC072163EE6530050A938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FCC072163EE6530050A938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FCC071163EE6530050A938 /* MavenSimpleApp.app */,
+				22FCC098163EE6530050A938 /* MavenSimpleAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FCC074163EE6530050A938 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22FCC075163EE6530050A938 /* UIKit.framework */,
+				22FCC077163EE6530050A938 /* Foundation.framework */,
+				22FCC079163EE6530050A938 /* CoreGraphics.framework */,
+				22FCC099163EE6530050A938 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22FCC07B163EE6530050A938 /* MavenSimpleApp */ = {
+			isa = PBXGroup;
+			children = (
+				22FCC084163EE6530050A938 /* MSAAppDelegate.h */,
+				22FCC085163EE6530050A938 /* MSAAppDelegate.m */,
+				22FCC08D163EE6530050A938 /* MainStoryboard.storyboard */,
+				22FCC090163EE6530050A938 /* MSAViewController.h */,
+				22FCC091163EE6530050A938 /* MSAViewController.m */,
+				22FCC07C163EE6530050A938 /* Supporting Files */,
+			);
+			path = MavenSimpleApp;
+			sourceTree = "<group>";
+		};
+		22FCC07C163EE6530050A938 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FCC07D163EE6530050A938 /* MavenSimpleApp-Info.plist */,
+				22FCC07E163EE6530050A938 /* InfoPlist.strings */,
+				22FCC081163EE6530050A938 /* main.m */,
+				22FCC083163EE6530050A938 /* MavenSimpleApp-Prefix.pch */,
+				22FCC087163EE6530050A938 /* Default.png */,
+				22FCC089163EE6530050A938 /* Default@2x.png */,
+				22FCC08B163EE6530050A938 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22FCC09F163EE6530050A938 /* MavenSimpleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				22FCC0A5163EE6530050A938 /* MavenSimpleAppTests.h */,
+				22FCC0A6163EE6530050A938 /* MavenSimpleAppTests.m */,
+				22FCC0A0163EE6530050A938 /* Supporting Files */,
+			);
+			path = MavenSimpleAppTests;
+			sourceTree = "<group>";
+		};
+		22FCC0A0163EE6530050A938 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22FCC0A1163EE6530050A938 /* MavenSimpleAppTests-Info.plist */,
+				22FCC0A2163EE6530050A938 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FCC070163EE6530050A938 /* MavenSimpleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FCC0AA163EE6530050A938 /* Build configuration list for PBXNativeTarget "MavenSimpleApp" */;
+			buildPhases = (
+				22FCC06D163EE6530050A938 /* Sources */,
+				22FCC06E163EE6530050A938 /* Frameworks */,
+				22FCC06F163EE6530050A938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MavenSimpleApp;
+			productName = MavenSimpleApp;
+			productReference = 22FCC071163EE6530050A938 /* MavenSimpleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22FCC097163EE6530050A938 /* MavenSimpleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FCC0AD163EE6530050A938 /* Build configuration list for PBXNativeTarget "MavenSimpleAppTests" */;
+			buildPhases = (
+				22FCC093163EE6530050A938 /* Sources */,
+				22FCC094163EE6530050A938 /* Frameworks */,
+				22FCC095163EE6530050A938 /* Resources */,
+				22FCC096163EE6530050A938 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FCC09E163EE6530050A938 /* PBXTargetDependency */,
+			);
+			name = MavenSimpleAppTests;
+			productName = MavenSimpleAppTests;
+			productReference = 22FCC098163EE6530050A938 /* MavenSimpleAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FCC068163EE6530050A938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MSA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Lixar I.T. Inc.";
+			};
+			buildConfigurationList = 22FCC06B163EE6530050A938 /* Build configuration list for PBXProject "MavenSimpleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22FCC066163EE6530050A938;
+			productRefGroup = 22FCC072163EE6530050A938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FCC070163EE6530050A938 /* MavenSimpleApp */,
+				22FCC097163EE6530050A938 /* MavenSimpleAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FCC06F163EE6530050A938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FCC080163EE6530050A938 /* InfoPlist.strings in Resources */,
+				22FCC088163EE6530050A938 /* Default.png in Resources */,
+				22FCC08A163EE6530050A938 /* Default@2x.png in Resources */,
+				22FCC08C163EE6530050A938 /* Default-568h@2x.png in Resources */,
+				22FCC08F163EE6530050A938 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FCC095163EE6530050A938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FCC0A4163EE6530050A938 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22FCC096163EE6530050A938 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FCC06D163EE6530050A938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FCC082163EE6530050A938 /* main.m in Sources */,
+				22FCC086163EE6530050A938 /* MSAAppDelegate.m in Sources */,
+				22FCC092163EE6530050A938 /* MSAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FCC093163EE6530050A938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FCC0A7163EE6530050A938 /* MavenSimpleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22FCC09E163EE6530050A938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FCC070163EE6530050A938 /* MavenSimpleApp */;
+			targetProxy = 22FCC09D163EE6530050A938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22FCC07E163EE6530050A938 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FCC07F163EE6530050A938 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22FCC08D163EE6530050A938 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FCC08E163EE6530050A938 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		22FCC0A2163EE6530050A938 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FCC0A3163EE6530050A938 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FCC0A8163EE6530050A938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22FCC0A9163EE6530050A938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FCC0AB163EE6530050A938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MavenSimpleApp/MavenSimpleApp-Prefix.pch";
+				INFOPLIST_FILE = "MavenSimpleApp/MavenSimpleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22FCC0AC163EE6530050A938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MavenSimpleApp/MavenSimpleApp-Prefix.pch";
+				INFOPLIST_FILE = "MavenSimpleApp/MavenSimpleApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22FCC0AE163EE6530050A938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MavenSimpleApp.app/MavenSimpleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MavenSimpleApp/MavenSimpleApp-Prefix.pch";
+				INFOPLIST_FILE = "MavenSimpleAppTests/MavenSimpleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		22FCC0AF163EE6530050A938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MavenSimpleApp.app/MavenSimpleApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MavenSimpleApp/MavenSimpleApp-Prefix.pch";
+				INFOPLIST_FILE = "MavenSimpleAppTests/MavenSimpleAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FCC06B163EE6530050A938 /* Build configuration list for PBXProject "MavenSimpleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FCC0A8163EE6530050A938 /* Debug */,
+				22FCC0A9163EE6530050A938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FCC0AA163EE6530050A938 /* Build configuration list for PBXNativeTarget "MavenSimpleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FCC0AB163EE6530050A938 /* Debug */,
+				22FCC0AC163EE6530050A938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FCC0AD163EE6530050A938 /* Build configuration list for PBXNativeTarget "MavenSimpleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FCC0AE163EE6530050A938 /* Debug */,
+				22FCC0AF163EE6530050A938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22FCC068163EE6530050A938 /* Project object */;
+}
