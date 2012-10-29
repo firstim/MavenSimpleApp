@@ -399,6 +399,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../target/libs/Debug-iphoneos/com.lixar.mavenxcode/SimpleLib\"",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -414,6 +415,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../target/libs/Debug-iphoneos/com.lixar.mavenxcode/SimpleLib\"",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
