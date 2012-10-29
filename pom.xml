@@ -42,7 +42,7 @@
 		<dependency>
 			<groupId>org.restkit.maven</groupId>
 			<artifactId>RestKit</artifactId>
-			<version>0.10.3-SNAPSHOT</version>
+			<version>0.10.3</version>
 			<type>xcode-lib</type>
 		</dependency>
 	</dependencies>
